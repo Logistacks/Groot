@@ -1,0 +1,66 @@
+{
+  "token": "Bot Token",
+  "mongo": "Mongo DB",
+  "prefix": "#",
+  "clientsettings": {
+    "nodes": [
+      {
+        "host": "lava.link",
+        "port": 80,
+        "password": "lava",
+        "retryDelay": 4000,
+        "secure": false
+      },
+       {
+        "host": "disbotlistlavalink.ml",
+        "port": 443,
+        "password": "LAVA",
+        "retryDelay": 4000,
+        "secure": true
+      },
+      {
+        "host": "lavalink-repl.parasop.repl.co",
+        "port": 443,
+        "password": "youshallnotpass",
+        "retryDelay": 4000,
+        "secure": true
+      },
+      {
+        "host": "main.paras888.repl.co",
+        "port": 443,
+        "password": "youshallnotpass",
+        "retryDelay": 4000,
+        "secure": true 
+      }
+    ]
+  },
+  "spotify": {
+    "clientSecret": "",
+    "clientID": ""
+  },
+  "settings": {
+    "COMMENT": "time_delay 0 === insta leave",
+    "progressbar_emoji": ":<:s_progress:866946355891929098>",
+    "leaveOnEmpty_Channel": {
+      "enabled": false,
+      "time_delay": 180000
+    },
+    "LeaveOnEmpty_Queue": {
+      "enabled": false,
+      "time_delay": 180000
+    },
+    "selfDeaf": true,
+    "serverDeaf": true
+  },
+  "links": {
+    "server": "https://dsc.gg/logistack",
+    "opbotinv": "",
+    "opmusicinv": "",
+    "opmusic2inv": "",
+    "opmusic3inv": "",
+    "opmusicvote": ""
+  },
+  "ownerIDS": [
+    ""
+  ]
+}
